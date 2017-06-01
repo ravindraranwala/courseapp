@@ -1,5 +1,5 @@
-import React, { PropTypes } from 'react'
-import { Link, IndexLink } from 'react-router'
+import React, { PropTypes } from 'react';
+import { Link, IndexLink } from 'react-router';
 
 const Header = () => {
   return (
@@ -11,6 +11,6 @@ const Header = () => {
       <Link to="/about" activeClassName="active">About</Link>
     </nav>
   );
-}
+};
 
-export default Header
+export default Header;
