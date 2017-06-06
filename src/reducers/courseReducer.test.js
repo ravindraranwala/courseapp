@@ -22,7 +22,7 @@ describe('Course Reducer', () => {
     expect(newState[0].title).toEqual('A');
     expect(newState[1].title).toEqual('B');
     expect(newState[2].title).toEqual('C');
-  })
+  });
 
   it('should update course when passed UPDATE_COURSE_SUCCESS', () => {
     // arrange
@@ -44,5 +44,5 @@ describe('Course Reducer', () => {
     expect(updatedCourse.title).toEqual('New Title');
     expect(untouchedCourse.title).toEqual('A');
     expect(newState.length).toEqual(3);
-  })
-})
+  });
+});

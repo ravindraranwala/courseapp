@@ -14,5 +14,5 @@ describe('Author Selectors', () => {
     ];
 
     expect(authorsFormattedForDropdown(authors)).toEqual(expected);
-  })
-})
+  });
+});
